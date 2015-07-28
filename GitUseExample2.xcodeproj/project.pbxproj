@@ -15,6 +15,7 @@
 		999ED29C1B676D0200C6F1F4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 999ED29A1B676D0200C6F1F4 /* LaunchScreen.xib */; };
 		999ED2A81B676D0200C6F1F4 /* GitUseExample2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 999ED2A71B676D0200C6F1F4 /* GitUseExample2Tests.m */; };
 		999ED2B31B67755400C6F1F4 /* MapForIternerary.m in Sources */ = {isa = PBXBuildFile; fileRef = 999ED2B21B67755400C6F1F4 /* MapForIternerary.m */; };
+		999ED2B91B67818700C6F1F4 /* class2.m in Sources */ = {isa = PBXBuildFile; fileRef = 999ED2B81B67818700C6F1F4 /* class2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,8 @@
 		999ED2A71B676D0200C6F1F4 /* GitUseExample2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitUseExample2Tests.m; sourceTree = "<group>"; };
 		999ED2B11B67755400C6F1F4 /* MapForIternerary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapForIternerary.h; sourceTree = "<group>"; };
 		999ED2B21B67755400C6F1F4 /* MapForIternerary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapForIternerary.m; sourceTree = "<group>"; };
+		999ED2B71B67818700C6F1F4 /* class2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = class2.h; sourceTree = "<group>"; };
+		999ED2B81B67818700C6F1F4 /* class2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = class2.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +87,8 @@
 		999ED28A1B676D0200C6F1F4 /* GitUseExample2 */ = {
 			isa = PBXGroup;
 			children = (
+				999ED2B71B67818700C6F1F4 /* class2.h */,
+				999ED2B81B67818700C6F1F4 /* class2.m */,
 				999ED2B11B67755400C6F1F4 /* MapForIternerary.h */,
 				999ED2B21B67755400C6F1F4 /* MapForIternerary.m */,
 				999ED28F1B676D0200C6F1F4 /* AppDelegate.h */,
@@ -224,6 +229,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				999ED2B91B67818700C6F1F4 /* class2.m in Sources */,
 				999ED2941B676D0200C6F1F4 /* ViewController.m in Sources */,
 				999ED2911B676D0200C6F1F4 /* AppDelegate.m in Sources */,
 				999ED28E1B676D0200C6F1F4 /* main.m in Sources */,
@@ -422,6 +428,7 @@
 				999ED2AD1B676D0200C6F1F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		999ED2AE1B676D0200C6F1F4 /* Build configuration list for PBXNativeTarget "GitUseExample2Tests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +437,7 @@
 				999ED2B01B676D0200C6F1F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
